@@ -21,8 +21,8 @@ repositories:
     version: e1795354161ed54d66659366262578863bd2b862
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 472a678cba601fe9c2ad2a634ac7280fbf4c275d
+    url: https://github.com/sykwer/autoware.universe.git
+    version: autoware-on-linux
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -41,8 +41,8 @@ repositories:
     version: c79e98fd5e658f4f90c06d93472faa977bc873b9
   universe/external/ndt_omp:
     type: git
-    url: https://github.com/tier4/ndt_omp.git
-    version: 9a0877ac99cf873d9e984e4f1c485e537503fb7f
+    url: https://github.com/sykwer/ndt_omp.git
+    version: autoware-on-linux
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
@@ -61,8 +61,8 @@ repositories:
     version: 07ad112b4f6b83eccd3a5f777bbe40ff01c67382
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: d5b427ac5c3f73d4f938adee2e20548e0d5702a7
+    url: https://github.com/sykwer/autoware_launch.git
+    version: autoware-on-linux
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -81,8 +81,8 @@ repositories:
     version: cb7cfcb7b8e2071bc97fc601ba8598b2f7130d24
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: ad2e34a72831b74ab0161db2da71a8356c4a29f8
+    url: https://github.com/sykwer/sample_sensor_kit_launch.git
+    version: autoware-on-linux
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -103,3 +103,11 @@ repositories:
     type: git
     url: https://github.com/tier4/heaphook.git
     version: 0c4836c3d1398ca898e5300cbf2270184148ae99
+  middleware/component_container_callback_isolated:
+    type: git
+    url: https://github.com/sykwer/component_container_callback_isolated.git
+    version: main
+  middleware/ros2_thread_configurator:
+    type: git
+    url: https://github.com/sykwer/ros2_thread_configurator.git
+    version: main
